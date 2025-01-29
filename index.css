@@ -185,6 +185,14 @@ footer p {
 }
 
 @media (max-width: 900px) and (orientation: landscape) {
+    .container {
+        padding: 50px 0;
+    }
+
+    .social-links a {
+        font-size: 16px;
+    }
+
     .profile-card {
         transform: rotate(-90deg);
     }
