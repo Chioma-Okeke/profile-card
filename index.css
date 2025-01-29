@@ -131,6 +131,11 @@ footer {
     justify-content: center;
 }
 
+footer p {
+    font-size: 12px;
+    font-style: italic;
+}
+
 .custom-shape-divider-bottom-1738142376 {
     position: absolute;
     top: 0;
@@ -172,5 +177,23 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .social-links a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 900px) and (orientation: landscape) {
+    .profile-card {
+        transform: rotate(-90deg);
+    }
+
+    .card-body {
+        transform: rotate(90deg);
+    }
+
+    .profile-card-image {
+        transform: rotate(90deg);
     }
 }
